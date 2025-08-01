@@ -1,0 +1,10 @@
+
+/* Hides both vertical and horizontal scrollbars */
+.custom-scrollbar {
+    scrollbar-width: none;         /* Firefox */
+    -ms-overflow-style: none;      /* IE 10+ */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar {
+    display: none;                 /* Chrome, Safari */
+  }
